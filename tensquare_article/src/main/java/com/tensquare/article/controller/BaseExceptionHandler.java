@@ -23,7 +23,7 @@ public class BaseExceptionHandler {
             message = "不能为0";
         }
 
-        System.out.println("hhah");
+        System.out.println("hhah aaa");
         return new Result(false, StatusCode.ERROR,message);
     }
 
