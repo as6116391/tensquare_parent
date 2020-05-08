@@ -9,5 +9,6 @@ package com.tensquare.article.controller;
 public class Adsda {
 
     int a;
+    int b;
     int c;
 }
