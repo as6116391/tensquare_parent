@@ -22,7 +22,7 @@ public class BaseExceptionHandler {
         if (e instanceof ArithmeticException){
             message = "不能为0";
         }
-
+        System.out.println("aaa");
         return new Result(false, StatusCode.ERROR,message);
     }
 
