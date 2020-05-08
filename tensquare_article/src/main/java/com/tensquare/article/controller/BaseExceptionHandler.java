@@ -24,7 +24,7 @@ public class BaseExceptionHandler {
         }
 
         System.out.println("aaaa");
-        System.out.println("bbbb");
+        System.out.println("没有");
         return new Result(false, StatusCode.ERROR,message);
     }
 
